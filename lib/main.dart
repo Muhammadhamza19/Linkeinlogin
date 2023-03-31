@@ -174,8 +174,8 @@ class _HomeState extends State<Home> {
    Future<void> fetchProfile() async {
     final tokenEndpoint = Uri.https('www.linkedin.com', 'oauth/v2/accessToken');
     final redirectUri = Uri.parse('http://localhost:65462');
-    final clientId = '78n6twe89uhn3o';
-    final clientSecret = 'uJceXryAaZLbfVg3';
+    final clientId = 'xxxxxxxxxx';
+    final clientSecret = 'xxxxxxxxxxxxx';
     final scopes = ['r_emailaddress', 'r_liteprofile'];
 
     try {
